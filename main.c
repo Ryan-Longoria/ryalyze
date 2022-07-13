@@ -14,8 +14,8 @@ int main (int argc, char* argv[])
 		printf("You have a Windows operating system.");
 	#endif
 	
-	#ifdef __APPLE__
-		printf("You have an Apple operating system.");
+	#ifdef _TARGET_OS_MAC
+		printf("You have a MAC operating system.");
 	#endif
 	
 	/*
