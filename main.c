@@ -13,11 +13,12 @@ int main (int argc, char* argv[])
 	#ifdef _WIN64
 		printf("You have a Windows operating system.");
 	#endif
-	/*
+	
 	#ifdef __APPLE__
 		printf("You have an Apple operating system.");
 	#endif
 	
+	/*
 	#ifdef __unix__
 		printf("You have a Unix operating system.");
 	#endif
