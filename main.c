@@ -9,7 +9,7 @@ int main (int argc, char* argv[])
 	#ifdef _WIN32
 		printf("You have a Windows operating system.");
 	#endif
-	
+	/*
 	#ifdef _WIN64
 		printf("You have a Windows operating system.");
 	#endif
@@ -35,7 +35,7 @@ int main (int argc, char* argv[])
 	#endif
 	
 	printf("Select an option below to continue");
-	
+	*/
 	
 	return 0;
 }
