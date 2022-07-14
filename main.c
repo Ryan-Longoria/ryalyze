@@ -7,11 +7,11 @@ int main (int argc, char* argv[])
 	int OS;
 	printf("Hello World, Welcome to Ryalyze!");
 	#ifdef _WIN32
-		printf("You have a Windows operating system.");
+		printf("Windows 32-bit operating system detected.");
 	#endif
 	
 	#ifdef _WIN64
-		printf("You have a Windows operating system.");
+		printf("Windows 64-bit operating system detected.");
 	#endif
 	
 	#ifdef _TARGET_OS_MAC
