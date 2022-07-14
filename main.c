@@ -15,24 +15,24 @@ int main (int argc, char* argv[])
 	#endif
 	
 	#ifdef _TARGET_OS_MAC
-		printf("You have a MAC operating system.");
+		printf("macOS operating system detected.");
 	#endif
 	
 	/*
 	#ifdef __unix__
-		printf("You have a Unix operating system.");
+		printf("Unix operating system detected.");
 	#endif
 	
 	#ifdef __linux__
-		printf("You have a Linux operating system.");
+		printf("Linux operating system detected.");
 	#endif
 	
 	#ifdef __sun
-		printf("You have a Solaris operating system.");
+		printf("Solaris operating system detected.");
 	#endif
 	
 	#ifdef BSD
-		printf("You have a BSD operating system.");
+		printf("BSD operating system detected.");
 	#endif
 	
 	printf("Select an option below to continue");
