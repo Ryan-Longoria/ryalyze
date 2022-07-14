@@ -3,7 +3,7 @@
 #include <string.h>
 #include "ryalyze.h"
 
-int main (int argc, char* argv[])
+int main ()
 {
 	printf("Hello World, Welcome to Ryalyze!");
 	
