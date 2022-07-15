@@ -3,9 +3,11 @@
 #include <string.h>
 #include "ryalyze.h"
 
-int main ()
+int main()
 {
 	printf("Hello World, Welcome to Ryalyze!");
+	
+	detect_OS(); //Sends to detect_OS.c
 	
 	return 0;
 }
